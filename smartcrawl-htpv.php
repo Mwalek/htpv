@@ -130,7 +130,7 @@ function dps_register_meta_boxes( $meta_boxes ) {
 					'name'        => esc_html__( 'Step ' . $m . ' URL', 'smartcrawl-htpv' ),
 					'id'          => $prefix . 'step' . $affix . '_url',
 					'desc'        => esc_html__( 'A URL that directly links to the step (if one is available). For example, an anchor link fragment.', 'smartcrawl-htpv' ),
-					'placeholder' => esc_html__( 'https://example.com/how-to-draw/#step-1', 'smartcrawl-htpv' ),
+					'placeholder' => esc_html__( 'https://example.com/how-to-draw/#step-' . $m, 'smartcrawl-htpv' ),
 				],
 				[
 					'type' => 'divider',
