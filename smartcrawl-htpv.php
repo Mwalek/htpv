@@ -135,9 +135,9 @@ function dps_register_meta_boxes( $meta_boxes ) {
 				[
 					'type' => 'divider',
 				],
-				// add the rest of the items here
+
 			]
-			/** End new items */
+
 		);
 	}
 
