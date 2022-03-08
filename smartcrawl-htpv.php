@@ -1,4 +1,14 @@
 <?php
+/*
+  Plugin Name: Smartcrawl HowTo Property Values
+  Plugin URI: https://prosites.co.zm/
+  Description: This plugin adds custom fields to WordPress. You can use the custom fields to add schema information to your HowTo posts in Smartcrawl SEO plugin.
+  Version: 0.1
+  Author: Databoy Pro Sites
+  Author URI: https://prosites.co.zm/
+*/
+
+add_filter( 'rwmb_meta_boxes', 'dps_register_meta_boxes' );
 
 function dps_register_meta_boxes( $meta_boxes ) {
 
