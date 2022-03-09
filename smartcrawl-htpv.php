@@ -116,7 +116,7 @@ function dps_register_meta_boxes( $meta_boxes ) {
 					'name'        => esc_html__( 'Step ' . $m . ' Text', 'smartcrawl-htpv' ),
 					'id'          => $prefix . 'step' . $affix . '_text',
 					'desc'        => esc_html__( 'The full instruction text of this step.', 'smartcrawl-htpv' ),
-					'placeholder' => esc_html__( 'Draw a straight line.', 'smartcrawl-htpv' ),
+					'placeholder' => esc_html__( 'Draw a straight line using a pencil and ruler ..', 'smartcrawl-htpv' ),
 				],
 				[
 					'type'        => 'text',
