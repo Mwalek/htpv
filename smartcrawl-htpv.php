@@ -52,16 +52,16 @@ function dps_register_meta_boxes( $meta_boxes ) {
 		],
 		[
 			'type'        => 'text',
-			'name'        => esc_html__( 'Estimated Cost Min Value', 'smartcrawl-htpv' ),
-			'id'          => $prefix . 'estimated_cost_min_value',
-			'desc'        => esc_html__( 'The estimated minimum cost of the supplies consumed when performing instructions.', 'smartcrawl-htpv' ),
+			'name'        => esc_html__( 'Estimated Cost Max Value', 'smartcrawl-htpv' ),
+			'id'          => $prefix . 'estimated_cost_max_value',
+			'desc'        => esc_html__( 'The estimated maximum cost of the supplies consumed when performing instructions.', 'smartcrawl-htpv' ),
 			'placeholder' => 100,
 		],
 		[
 			'type'        => 'text',
-			'name'        => esc_html__( 'Estimated Cost Max Value', 'smartcrawl-htpv' ),
-			'id'          => $prefix . 'estimated_cost_max_value',
-			'desc'        => esc_html__( 'The estimated maximum cost of the supplies consumed when performing instructions.', 'smartcrawl-htpv' ),
+			'name'        => esc_html__( 'Estimated Cost Min Value', 'smartcrawl-htpv' ),
+			'id'          => $prefix . 'estimated_cost_min_value',
+			'desc'        => esc_html__( 'The estimated minimum cost of the supplies consumed when performing instructions.', 'smartcrawl-htpv' ),
 			'placeholder' => 100,
 		],
 		[
