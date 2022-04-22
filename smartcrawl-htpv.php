@@ -8,11 +8,11 @@
   Author URI: https://mwale.me/
 */
 
-add_filter( 'rwmb_meta_boxes', 'dps_register_meta_boxes' );
+add_filter( 'rwmb_meta_boxes', 'm5_register_meta_boxes' );
 
-function dps_register_meta_boxes( $meta_boxes ) {
+function m5_register_meta_boxes( $meta_boxes ) {
 
-	$prefix = 'dps_';
+	$prefix = 'm5_';
 
 	$htpv_items = [
 		

@@ -12,6 +12,6 @@ NB: The free [Meta Box](https://wordpress.org/plugins/meta-box/) plugin is requi
 3. Edit any post inside wordpress and you'll see the htpv custom fields group.
 
 ## How to choose values in Smartcrawl
-All custom fields created by this plugin start with the prefix *dps_*. To select a custom field variable inside Smartcrawl, you must combine the prefix with the name of the custom field you want (with underscores instead of spaces).
+All custom fields created by this plugin start with the prefix *m5_*. To select a custom field variable inside Smartcrawl, you must combine the prefix with the name of the custom field you want (with underscores instead of spaces).
 
-For example, if you wanted to get the value of the field called "step 1", you would type *dps_step_1* and if you wanted to get the value of "step 1 text", you would type *dps_step_1_text*, so on and so forth.
+For example, if you wanted to get the value of the field called "step 1", you would type *m5_step_1* and if you wanted to get the value of "step 1 text", you would type *m5_step_1_text*, so on and so forth.
